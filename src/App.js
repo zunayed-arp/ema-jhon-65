@@ -31,9 +31,9 @@ function App() {
             <PrivateRoute path="/inventory">
               <Inventory></Inventory>
             </PrivateRoute>
-            <PrivateRoute path="/shipping">
+            <Route path="/shipping">
               <Shipping></Shipping>
-            </PrivateRoute>
+            </Route>
             <PrivateRoute path="/placeorder">
               <PlaceOrder></PlaceOrder>
             </PrivateRoute>
